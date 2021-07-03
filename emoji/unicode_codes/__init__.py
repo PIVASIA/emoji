@@ -6,7 +6,7 @@ from emoji.unicode_codes.pt import *
 from emoji.unicode_codes.it import *
 from emoji.unicode_codes.fr import *
 from emoji.unicode_codes.de import *
-
+from emoji.unicode_codes.vi import *
 
 __all__ = [
     'EMOJI_UNICODE', 'UNICODE_EMOJI',
@@ -16,7 +16,8 @@ __all__ = [
     'EMOJI_UNICODE_PORTUGUESE', 'UNICODE_EMOJI_PORTUGUESE',
     'EMOJI_UNICODE_ITALIAN', 'UNICODE_EMOJI_ITALIAN',
     'EMOJI_UNICODE_FRENCH', 'UNICODE_EMOJI_FRENCH',
-    'EMOJI_UNICODE_GERMAN', 'UNICODE_EMOJI_GERMAN'
+    'EMOJI_UNICODE_GERMAN', 'UNICODE_EMOJI_GERMAN',
+    'EMOJI_UNICODE_VIETNAM', 'UNICODE_EMOJI_VIETNAM'
 ]
 
 
@@ -27,6 +28,7 @@ EMOJI_UNICODE = {
     'it': EMOJI_UNICODE_ITALIAN,
     'fr': EMOJI_UNICODE_FRENCH,
     'de': EMOJI_UNICODE_GERMAN,
+    'vi': EMOJI_UNICODE_VIETNAM
 }
 
 UNICODE_EMOJI = {
@@ -36,4 +38,5 @@ UNICODE_EMOJI = {
     'it': UNICODE_EMOJI_ITALIAN,
     'fr': UNICODE_EMOJI_FRENCH,
     'de': UNICODE_EMOJI_GERMAN,
+    'vi': UNICODE_EMOJI_VIETNAM
 }
